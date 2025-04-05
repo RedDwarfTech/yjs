@@ -40,15 +40,6 @@ export default [{
   input: './src/index.js',
   output: {
     name: 'Y',
-    file: 'dist/yjs.cjs',
-    format: 'cjs',
-    sourcemap: true
-  },
-  external: id => /^lib0\//.test(id)
-}, {
-  input: './src/index.js',
-  output: {
-    name: 'Y',
     file: 'dist/yjs.mjs',
     format: 'esm',
     sourcemap: true
