@@ -6,6 +6,7 @@ import {
 
 import * as math from 'lib0/math'
 import * as error from 'lib0/error'
+import * as logging from 'lib0/logging'
 
 export class StructStore {
   constructor () {
@@ -214,6 +215,9 @@ export const getItemCleanEnd = (transaction, store, id) => {
   const index = findIndexSS(structs, id.clock)
   const struct = structs[index]
   if (id.clock !== struct.id.clock + struct.length - 1 && struct.constructor !== GC) {
+    if (structs === undefined) {
+      logging.print('structs undefined: {},id:{}', JSON.stringify(store),JSON.stringify(id))
+    }
     structs.splice(index + 1, 0, splitItem(transaction, struct, id.clock - struct.id.clock + 1))
   }
   return struct
