@@ -1,7 +1,7 @@
 import {
   UpdateEncoderV1, UpdateEncoderV2, ID, Transaction // eslint-disable-line
 } from '../internals.js'
-
+// @ts-ignore
 import * as error from 'rdlib0/error'
 
 export class AbstractStruct {

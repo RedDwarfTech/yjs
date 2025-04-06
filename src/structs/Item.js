@@ -26,7 +26,7 @@ import {
 } from '../internals.js'
 
 import * as error from 'rdlib0/error'
-import * as binary from 'rdlib0/binary'
+import * as binary from 'rdlib0/binary.js'
 import * as array from 'rdlib0/array'
 
 /**
