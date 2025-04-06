@@ -1,6 +1,6 @@
 {
   "name": "rdyjs",
-  "version": "13.6.26",
+  "version": "13.6.27",
   "description": "Shared Editing Library",
   "module": "./dist/yjs.mjs",
   "types": "./dist/src/index.d.ts",
@@ -75,7 +75,7 @@
   },
   "homepage": "https://docs.yjs.dev",
   "dependencies": {
-    "lib0": "^0.2.99"
+    "rdlib0": "^0.2.105"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^24.0.1",
