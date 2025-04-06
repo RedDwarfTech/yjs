@@ -1,5 +1,5 @@
-import * as buffer from 'lib0/buffer'
-import * as decoding from 'lib0/decoding'
+import * as buffer from 'rdlib0/buffer'
+import * as decoding from 'rdlib0/decoding'
 import {
   ID, createID
 } from '../internals.js'

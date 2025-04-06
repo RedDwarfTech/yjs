@@ -1,5 +1,5 @@
 import * as Y from '../src/index.js'
-import * as t from 'lib0/testing'
+import * as t from 'rdlib0/testing'
 
 /**
  * @param {Y.Text} ytext

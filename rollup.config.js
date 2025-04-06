@@ -16,7 +16,7 @@ const customModules = new Set([
  * @type {Set<any>}
  */
 const customLibModules = new Set([
-  'lib0',
+  'rdlib0',
   'y-protocols'
 ])
 const debugResolve = {

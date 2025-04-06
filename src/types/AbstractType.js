@@ -13,11 +13,11 @@ import {
   ContentDoc, YText, YArray, UpdateEncoderV1, UpdateEncoderV2, Doc, Snapshot, Transaction, EventHandler, YEvent, Item, // eslint-disable-line
 } from '../internals.js'
 
-import * as map from 'lib0/map'
-import * as iterator from 'lib0/iterator'
-import * as error from 'lib0/error'
-import * as math from 'lib0/math'
-import * as log from 'lib0/logging'
+import * as map from 'rdlib0/map'
+import * as iterator from 'rdlib0/iterator'
+import * as error from 'rdlib0/error'
+import * as math from 'rdlib0/math'
+import * as log from 'rdlib0/logging'
 
 /**
  * https://docs.yjs.dev/getting-started/working-with-shared-types#caveats

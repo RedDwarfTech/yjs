@@ -7,11 +7,11 @@ import {
   DSDecoderV1, DSEncoderV1, DSDecoderV2, DSEncoderV2, Item, GC, StructStore, Transaction, ID // eslint-disable-line
 } from '../internals.js'
 
-import * as array from 'lib0/array'
-import * as math from 'lib0/math'
-import * as map from 'lib0/map'
-import * as encoding from 'lib0/encoding'
-import * as decoding from 'lib0/decoding'
+import * as array from 'rdlib0/array'
+import * as math from 'rdlib0/math'
+import * as map from 'rdlib0/map'
+import * as encoding from 'rdlib0/encoding'
+import * as decoding from 'rdlib0/decoding'
 
 export class DeleteItem {
   /**

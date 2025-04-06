@@ -4,9 +4,9 @@ import {
   Transaction, ID, Item, DSDecoderV2 // eslint-disable-line
 } from '../internals.js'
 
-import * as math from 'lib0/math'
-import * as error from 'lib0/error'
-import * as logging from 'lib0/logging'
+import * as math from 'rdlib0/math'
+import * as error from 'rdlib0/error'
+import * as logging from 'rdlib0/logging'
 
 export class StructStore {
   constructor () {

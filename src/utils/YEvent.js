@@ -3,9 +3,9 @@ import {
   Item, AbstractType, Transaction, AbstractStruct // eslint-disable-line
 } from '../internals.js'
 
-import * as set from 'lib0/set'
-import * as array from 'lib0/array'
-import * as error from 'lib0/error'
+import * as set from 'rdlib0/set'
+import * as array from 'rdlib0/array'
+import * as error from 'rdlib0/error'
 
 const errorComputeChanges = 'You must not compute changes after the event-handler fired.'
 

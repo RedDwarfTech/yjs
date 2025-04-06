@@ -1,4 +1,4 @@
-import * as f from 'lib0/function'
+import * as f from 'rdlib0/function'
 
 /**
  * General event handler implementation.

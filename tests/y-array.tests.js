@@ -1,10 +1,10 @@
 import { init, compare, applyRandomTests, Doc } from './testHelper.js' // eslint-disable-line
 
 import * as Y from '../src/index.js'
-import * as t from 'lib0/testing'
-import * as prng from 'lib0/prng'
-import * as math from 'lib0/math'
-import * as env from 'lib0/environment'
+import * as t from 'rdlib0/testing'
+import * as prng from 'rdlib0/prng'
+import * as math from 'rdlib0/math'
+import * as env from 'rdlib0/environment'
 
 const isDevMode = env.getVariable('node_env') === 'development'
 

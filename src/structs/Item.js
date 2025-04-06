@@ -25,9 +25,9 @@ import {
   StackItem, DeleteSet, UpdateDecoderV1, UpdateDecoderV2, UpdateEncoderV1, UpdateEncoderV2, ContentType, ContentDeleted, StructStore, ID, AbstractType, Transaction // eslint-disable-line
 } from '../internals.js'
 
-import * as error from 'lib0/error'
-import * as binary from 'lib0/binary'
-import * as array from 'lib0/array'
+import * as error from 'rdlib0/error'
+import * as binary from 'rdlib0/binary'
+import * as array from 'rdlib0/array'
 
 /**
  * @todo This should return several items

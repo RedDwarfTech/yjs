@@ -2,8 +2,8 @@ import {
   AbstractStruct,
   UpdateEncoderV1, UpdateEncoderV2, StructStore, Transaction, ID // eslint-disable-line
 } from '../internals.js'
-import * as error from 'lib0/error'
-import * as encoding from 'lib0/encoding'
+import * as error from 'rdlib0/error'
+import * as encoding from 'rdlib0/encoding'
 
 export const structSkipRefNumber = 10
 

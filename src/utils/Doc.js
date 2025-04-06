@@ -14,11 +14,11 @@ import {
   ContentDoc, Item, Transaction, YEvent // eslint-disable-line
 } from '../internals.js'
 
-import { ObservableV2 } from 'lib0/observable'
-import * as random from 'lib0/random'
-import * as map from 'lib0/map'
-import * as array from 'lib0/array'
-import * as promise from 'lib0/promise'
+import { ObservableV2 } from 'rdlib0/observable'
+import * as random from 'rdlib0/random'
+import * as map from 'rdlib0/map'
+import * as array from 'rdlib0/array'
+import * as promise from 'rdlib0/promise'
 
 export const generateNewClientId = random.uint32
 

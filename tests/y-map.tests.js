@@ -5,8 +5,8 @@ import {
 } from '../src/internals.js'
 
 import * as Y from '../src/index.js'
-import * as t from 'lib0/testing'
-import * as prng from 'lib0/prng'
+import * as t from 'rdlib0/testing'
+import * as prng from 'rdlib0/prng'
 
 /**
  * @param {t.TestCase} _tc

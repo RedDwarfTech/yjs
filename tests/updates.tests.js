@@ -1,10 +1,10 @@
-import * as t from 'lib0/testing'
+import * as t from 'rdlib0/testing'
 import { init, compare } from './testHelper.js' // eslint-disable-line
 import * as Y from '../src/index.js'
 import { readClientsStructRefs, readDeleteSet, UpdateDecoderV2, UpdateEncoderV2, writeDeleteSet } from '../src/internals.js'
-import * as encoding from 'lib0/encoding'
-import * as decoding from 'lib0/decoding'
-import * as object from 'lib0/object'
+import * as encoding from 'rdlib0/encoding'
+import * as decoding from 'rdlib0/decoding'
+import * as object from 'rdlib0/object'
 
 /**
  * @typedef {Object} Enc

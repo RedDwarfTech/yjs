@@ -1,8 +1,8 @@
 import { AbstractType } from '../internals.js' // eslint-disable-line
 
-import * as decoding from 'lib0/decoding'
-import * as encoding from 'lib0/encoding'
-import * as error from 'lib0/error'
+import * as decoding from 'rdlib0/decoding'
+import * as encoding from 'rdlib0/encoding'
+import * as error from 'rdlib0/error'
 
 export class ID {
   /**

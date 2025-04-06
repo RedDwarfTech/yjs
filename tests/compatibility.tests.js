@@ -6,8 +6,8 @@
  */
 
 import * as Y from '../src/index.js'
-import * as t from 'lib0/testing'
-import * as buffer from 'lib0/buffer'
+import * as t from 'rdlib0/testing'
+import * as buffer from 'rdlib0/buffer'
 
 /**
  * @param {t.TestCase} tc

@@ -1,4 +1,4 @@
-import * as object from 'lib0/object'
+import * as object from 'rdlib0/object'
 
 import {
   YXmlFragment,

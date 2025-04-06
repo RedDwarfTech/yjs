@@ -1,5 +1,5 @@
-import * as t from 'lib0/testing'
-import * as promise from 'lib0/promise'
+import * as t from 'rdlib0/testing'
+import * as promise from 'rdlib0/promise'
 
 import {
   contentRefs,

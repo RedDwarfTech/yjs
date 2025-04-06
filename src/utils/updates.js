@@ -1,12 +1,12 @@
-import * as binary from 'lib0/binary'
-import * as decoding from 'lib0/decoding'
-import * as encoding from 'lib0/encoding'
-import * as error from 'lib0/error'
-import * as f from 'lib0/function'
-import * as logging from 'lib0/logging'
-import * as map from 'lib0/map'
-import * as math from 'lib0/math'
-import * as string from 'lib0/string'
+import * as binary from 'rdlib0/binary'
+import * as decoding from 'rdlib0/decoding'
+import * as encoding from 'rdlib0/encoding'
+import * as error from 'rdlib0/error'
+import * as f from 'rdlib0/function'
+import * as logging from 'rdlib0/logging'
+import * as map from 'rdlib0/map'
+import * as math from 'rdlib0/math'
+import * as string from 'rdlib0/string'
 
 import {
   ContentAny,

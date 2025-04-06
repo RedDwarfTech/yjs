@@ -12,10 +12,10 @@ import * as snapshot from './snapshot.tests.js'
 import * as updates from './updates.tests.js'
 import * as relativePositions from './relativePositions.tests.js'
 
-import { runTests } from 'lib0/testing'
-import { isBrowser, isNode } from 'lib0/environment'
-import * as log from 'lib0/logging'
-import { environment } from 'lib0'
+import { runTests } from 'rdlib0/testing'
+import { isBrowser, isNode } from 'rdlib0/environment'
+import * as log from 'rdlib0/logging'
+import { environment } from 'rdlib0'
 
 if (isBrowser) {
   log.createVConsole(document.body)

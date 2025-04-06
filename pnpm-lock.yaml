@@ -8,18 +8,18 @@ importers:
 
   .:
     dependencies:
-      lib0:
-        specifier: ^0.2.99
-        version: 0.2.102
+      rdlib0:
+        specifier: ^0.2.105
+        version: 0.2.105
     devDependencies:
       '@rollup/plugin-commonjs':
-        specifier: ^24.0.1
+        specifier: ^24.1.0
         version: 24.1.0(rollup@3.29.5)
       '@rollup/plugin-node-resolve':
-        specifier: ^15.0.1
+        specifier: ^15.3.1
         version: 15.3.1(rollup@3.29.5)
       '@types/node':
-        specifier: ^18.15.5
+        specifier: ^18.19.86
         version: 18.19.86
       concurrently:
         specifier: ^3.6.1
@@ -28,13 +28,13 @@ importers:
         specifier: ^0.12.3
         version: 0.12.3
       jsdoc:
-        specifier: ^3.6.7
+        specifier: ^3.6.11
         version: 3.6.11
       markdownlint-cli:
         specifier: ^0.41.0
         version: 0.41.0
       rollup:
-        specifier: ^3.20.0
+        specifier: ^3.29.5
         version: 3.29.5
       standard:
         specifier: ^16.0.4
@@ -46,7 +46,7 @@ importers:
         specifier: ^4.9.5
         version: 4.9.5
       y-protocols:
-        specifier: ^1.0.5
+        specifier: ^1.0.6
         version: 1.0.6(yjs@13.6.24)
 
 packages:
@@ -1309,6 +1309,11 @@ packages:
   qs@6.14.0:
     resolution: {integrity: sha512-YWWTjgABSKcvs/nWBi9PycY/JiPJqOD4JA6o9Sej2AtvSGarXxKC3OQSk4pAarbdQlKAh5D4FCQkJNkW+GAn3w==}
     engines: {node: '>=0.6'}
+
+  rdlib0@0.2.105:
+    resolution: {integrity: sha512-xbcmoCsbeDq8FzE6aUMQggYFBa2gKW1S9Mca7wF5zau6LsvEwge0osjaBt/1NDHzp2diPi+BmCddSmo5cdguUA==}
+    engines: {node: '>=16'}
+    hasBin: true
 
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
@@ -3092,6 +3097,10 @@ snapshots:
   qs@6.14.0:
     dependencies:
       side-channel: 1.1.0
+
+  rdlib0@0.2.105:
+    dependencies:
+      isomorphic.js: 0.2.5
 
   react-is@16.13.1: {}
 

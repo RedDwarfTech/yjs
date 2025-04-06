@@ -1,5 +1,5 @@
-import * as error from 'lib0/error'
-import * as encoding from 'lib0/encoding'
+import * as error from 'rdlib0/error'
+import * as encoding from 'rdlib0/encoding'
 
 import {
   ID // eslint-disable-line

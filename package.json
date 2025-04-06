@@ -78,18 +78,18 @@
     "rdlib0": "^0.2.105"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^24.0.1",
-    "@rollup/plugin-node-resolve": "^15.0.1",
-    "@types/node": "^18.15.5",
+    "@rollup/plugin-commonjs": "^24.1.0",
+    "@rollup/plugin-node-resolve": "^15.3.1",
+    "@types/node": "^18.19.86",
     "concurrently": "^3.6.1",
     "http-server": "^0.12.3",
-    "jsdoc": "^3.6.7",
+    "jsdoc": "^3.6.11",
     "markdownlint-cli": "^0.41.0",
-    "rollup": "^3.20.0",
+    "rollup": "^3.29.5",
     "standard": "^16.0.4",
     "tui-jsdoc-template": "^1.2.2",
     "typescript": "^4.9.5",
-    "y-protocols": "^1.0.5"
+    "y-protocols": "^1.0.6"
   },
   "engines": {
     "npm": ">=8.0.0",

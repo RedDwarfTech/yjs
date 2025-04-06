@@ -1,7 +1,7 @@
 import * as Y from './testHelper.js'
-import * as t from 'lib0/testing'
-import * as prng from 'lib0/prng'
-import * as math from 'lib0/math'
+import * as t from 'rdlib0/testing'
+import * as prng from 'rdlib0/prng'
+import * as math from 'rdlib0/math'
 
 const { init, compare } = Y
 

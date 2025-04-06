@@ -13,10 +13,10 @@ import {
   YEvent, Transaction, Doc, Item, GC, DeleteSet, AbstractType // eslint-disable-line
 } from '../internals.js'
 
-import * as time from 'lib0/time'
-import * as array from 'lib0/array'
-import * as logging from 'lib0/logging'
-import { ObservableV2 } from 'lib0/observable'
+import * as time from 'rdlib0/time'
+import * as array from 'rdlib0/array'
+import * as logging from 'rdlib0/logging'
+import { ObservableV2 } from 'rdlib0/observable'
 
 export class StackItem {
   /**
