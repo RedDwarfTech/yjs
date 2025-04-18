@@ -1,6 +1,6 @@
 {
   "name": "rdyjs",
-  "version": "13.6.28",
+  "version": "13.6.29",
   "description": "Shared Editing Library",
   "module": "./dist/yjs.mjs",
   "types": "./dist/src/index.d.ts",

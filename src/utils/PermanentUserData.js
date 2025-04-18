@@ -141,6 +141,10 @@ export class PermanentUserData {
       "afterTransaction",
       /** @param {Transaction} transaction */ (transaction) => {
         setTimeout(() => {
+          if (!user) {
+            console.error("did not get user info");
+            return;
+          }
           const yds = user.get("ds");
           const ds = transaction.deleteSet;
           if (
