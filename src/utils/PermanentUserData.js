@@ -118,6 +118,10 @@ export class PermanentUserData {
     users.observe((_event) => {
       setTimeout(() => {
         const userOverwrite = users.get(userDescription);
+        if (!user) {
+          console.error("did not get user info setUserMapping");
+          return;
+        }
         if (userOverwrite !== user) {
           // user was overwritten, port all data over to the next user object
           // @todo Experiment with Y.Sets here
