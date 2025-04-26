@@ -126,6 +126,10 @@ export class PermanentUserData {
           // user was overwritten, port all data over to the next user object
           // @todo Experiment with Y.Sets here
           user = userOverwrite;
+          if (!user) {
+            console.error("did not get overwritten user info setUserMapping");
+            return;
+          }
           // @todo iterate over old type
           this.clients.forEach((_userDescription, clientid) => {
             if (userDescription === _userDescription) {
