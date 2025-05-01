@@ -87,7 +87,7 @@ Showcase](https://yjs-diagram.synergy.codes/).
 * [JupyterCad](https://jupytercad.readthedocs.io/en/latest/) Extension to
   JupyterLab that enables collaborative editing of 3d FreeCAD Models.
 * [JupyterGIS](https://github.com/geojupyter/jupytergis) Collaborative GIS
-  (Geographic Information System) editor in Jupyter 
+  (Geographic Information System) editor in Jupyter
 * [Hyperquery](https://hyperquery.ai/) A collaborative data workspace for
   sharing analyses, documentation, spreadsheets, and dashboards.
 * [Nosgestesclimat](https://nosgestesclimat.fr/groupe) The french carbon
@@ -169,6 +169,27 @@ are implemented in separate modules.
 | [PSPDFKit](https://www.nutrient.io/) |  | [yjs-pspdfkit](https://github.com/hoangqwe159/yjs-pspdfkit) | [demo](https://github.com/hoangqwe159/yjs-pspdfkit) |
 | [Rows n'Columns](https://www.rowsncolumns.app/) | ✔ | [@rowsncolumns/y-spreadsheet](https://docs.rowsncolumns.app/collaboration/yjs-collaboration) | |
 
+### Utilities
+
+Tools that extend the core functionality of Yjs.
+
+<dl>
+  <dt><a href="https://github.com/yjs/y-utility">y-utility</a></dt>
+  <dd>
+Library with <code>YMultiDocUndoManager</code> (undo/redo across Yjs docs) and
+<code>YKeyValue</code> (optimized key-value store).
+  </dd>
+  <dt>
+<a href="https://github.com/Tulip-Writer/yjs-orderedtree"> yjs-orderedtree </a> 🌳
+  </dt>
+  <dd>
+Class for ordered trees via Y.Map. Handles <code>insert</code>,
+<code>delete</code>, and <code>move</code> operations for folder-like
+hierarchies.  
+  </dd>
+
+</dl>
+
 ### Providers
 
 Setting up the communication between clients, managing awareness information,
@@ -186,7 +207,7 @@ collaborative app.
   <dd>
 A module that contains a simple websocket backend and a websocket client that
 connects to that backend. <a href="https://github.com/yjs/y-redis/"><b>y-redis</b></a>,
-<b>y-sweet</b>, <b>ypy-websocket</b> and <a href="https://tiptap.dev/docs/hocuspocus/introduction">
+<b>y-sweet</b>, <b>ypy-websocket</b>, <b>yrs-warp</b> and <a href="https://tiptap.dev/docs/hocuspocus/introduction">
 <b>Hocuspocus</b></a> (see below) are alternative
 backends to y-websocket.
   </dd>
@@ -307,6 +328,11 @@ A database and connection provider for Yjs based on Firestore.
   <dd>
   Golang database server for YJS CRDT using Postgres + Redis
   </dd>
+  <dt><a href="https://github.com/malte-j/y-op-sqlite">y-op-sqlite</a></dt>
+  <dd>
+ Yjs persistence provider for op-sqlite
+  </dd>
+
 </dl>
 
 ### Tooling
