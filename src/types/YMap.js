@@ -219,6 +219,7 @@ export class YMap extends AbstractType {
    * @return {VAL}
    */
   set (key, value) {
+    console.log("YMap.set", key, value);
     if (this.doc !== null) {
       transact(this.doc, transaction => {
         typeMapSet(transaction, this, key, /** @type {any} */ (value))
